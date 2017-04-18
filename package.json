@@ -1,1 +1,40 @@
-{     "devDependencies": {         "inliner": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-inliner",     "homepage": "https://github.com/npmtest/node-npmtest-inliner",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-inliner.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [inliner (v1.12.1)](http://github.com/remy/inliner)  [![npm package](https://img.shields.io/npm/v/npmtest-inliner.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-inliner) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-inliner.svg)](https://travis-ci.org/npmtest/node-npmtest-inliner)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "inliner": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-inliner",
+    "keywords": [
+        "coverage",
+        "test",
+        "inliner"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_inliner.js",
+    "name": "npmtest-inliner",
+    "nameAlias": "npmtest_inliner",
+    "nameOriginal": "npmtest-inliner",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-inliner.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
