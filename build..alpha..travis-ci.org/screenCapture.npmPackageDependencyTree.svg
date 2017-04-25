@@ -34,10 +34,10 @@
 <tspan x="10" y="506">  │ │   ├── isarray@0.0.1 </tspan>
 <tspan x="10" y="522">  │ │   └── string_decoder@0.10.31 </tspan>
 <tspan x="10" y="538">  │ └── lodash@3.10.1 </tspan>
-<tspan x="10" y="554">  ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="570">  │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="554">  ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="570">  │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="586">  ├── es6-promise@2.3.0 </tspan>
-<tspan x="10" y="602">  ├── iconv-lite@0.4.15 </tspan>
+<tspan x="10" y="602">  ├── iconv-lite@0.4.16 </tspan>
 <tspan x="10" y="618">  ├── jschardet@1.4.2 </tspan>
 <tspan x="10" y="634">  ├─┬ lodash.assign@3.2.0 </tspan>
 <tspan x="10" y="650">  │ ├─┬ lodash._baseassign@3.2.0 </tspan>
@@ -135,7 +135,7 @@
 <tspan x="10" y="2122">  │   ├─┬ cliui@2.1.0 </tspan>
 <tspan x="10" y="2138">  │   │ ├─┬ center-align@0.1.3 </tspan>
 <tspan x="10" y="2154">  │   │ │ ├─┬ align-text@0.1.4 </tspan>
-<tspan x="10" y="2170">  │   │ │ │ ├─┬ kind-of@3.1.0 </tspan>
+<tspan x="10" y="2170">  │   │ │ │ ├─┬ kind-of@3.2.0 </tspan>
 <tspan x="10" y="2186">  │   │ │ │ │ └── is-buffer@1.1.5 </tspan>
 <tspan x="10" y="2202">  │   │ │ │ ├── longest@1.0.1 </tspan>
 <tspan x="10" y="2218">  │   │ │ │ └── repeat-string@1.6.1 </tspan>
@@ -152,7 +152,7 @@
 <tspan x="10" y="2394">    │ ├─┬ osenv@0.1.4 </tspan>
 <tspan x="10" y="2410">    │ │ └── os-homedir@1.0.2 </tspan>
 <tspan x="10" y="2426">    │ ├── uuid@2.0.3 </tspan>
-<tspan x="10" y="2442">    │ ├─┬ write-file-atomic@1.3.1 </tspan>
+<tspan x="10" y="2442">    │ ├─┬ write-file-atomic@1.3.3 </tspan>
 <tspan x="10" y="2458">    │ │ ├── imurmurhash@0.1.4 </tspan>
 <tspan x="10" y="2474">    │ │ └── slide@1.1.6 </tspan>
 <tspan x="10" y="2490">    │ └── xdg-basedir@2.0.0 </tspan>
