@@ -1,6 +1,6 @@
 # npmtest-inliner
 
-#### test coverage for  [inliner (v1.12.1)](http://github.com/remy/inliner)  [![npm package](https://img.shields.io/npm/v/npmtest-inliner.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-inliner) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-inliner.svg)](https://travis-ci.org/npmtest/node-npmtest-inliner)
+#### basic test coverage for  [inliner (v1.12.1)](http://github.com/remy/inliner)  [![npm package](https://img.shields.io/npm/v/npmtest-inliner.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-inliner) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-inliner.svg)](https://travis-ci.org/npmtest/node-npmtest-inliner)
 
 #### Utility to inline images, CSS and JavaScript for a web page - useful for mobile sites
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-inliner/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-inliner/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-inliner/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-inliner/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-inliner/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-inliner/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-inliner/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-inliner/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-inliner/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-inliner/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-inliner/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-inliner/build/coverage.html/index.html)
 
